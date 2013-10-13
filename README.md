@@ -19,3 +19,6 @@ publishers:
         node: nodename. Defaults to "".
         keep: whether to keep previous docs. Defaults to false.
 ```
+
+The doxygen files should be found in the input working directory. They must by some other process.
+This plugins only publishes them.
