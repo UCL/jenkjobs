@@ -20,5 +20,5 @@ publishers:
         keep: whether to keep previous docs. Defaults to false.
 ```
 
-The doxygen files should be found in the input working directory. They must by some other process.
+The doxygen files should be found in the input working directory. They must built by some other process.
 This plugins only publishes them.
