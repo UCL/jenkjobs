@@ -5,7 +5,7 @@ setup(
     install_requires = "jenkins-job-builder",
     entry_points = {
       'jenkins_jobs.publishers': [
-        'doxygen=jenkjobs:doxygen',
+        'doxygen=jenkjobs:rsdt_doxygen',
       ]
     },
     packages = find_packages(),

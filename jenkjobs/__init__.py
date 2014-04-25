@@ -13,6 +13,7 @@ def rsdt_doxygen(parser, xml_parent, data):
             node: nodename. Defaults to "".
             keep: whether to keep previous docs. Defaults to false.
     """
+    from jenkins_jobs.errors import JenkinsJobsException
     from xml.etree.ElementTree import SubElement
     doxygen = SubElement(xml_parent, 'hudson.plugins.doxygen.DoxygenArchiver')
     if not data['doxyfile']:
