@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 setup(
     name = "JenkJobs",
-    version = "0.0.1",
+    version = "0.0.2",
     install_requires = "jenkins-job-builder",
     entry_points = {
       'jenkins_jobs.publishers': [
-        'doxygen=jenkjobs:rsdt_doxygen',
+        'rsdt_doxygen=jenkjobs:rsdt_doxygen',
       ]
     },
     packages = find_packages(),
