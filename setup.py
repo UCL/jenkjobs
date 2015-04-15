@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="JenkJobs",
-    version="0.0.2",
+    version="0.0.4",
     install_requires="jenkins-job-builder",
     entry_points={
       'jenkins_jobs.publishers': [
